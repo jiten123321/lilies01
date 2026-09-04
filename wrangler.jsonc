@@ -1,0 +1,11 @@
+{
+  // Must match the existing Worker so deploys update it in place and keep the current URL.
+  "name": "lilies01",
+  "compatibility_date": "2026-08-29",
+
+  // Assets-only Worker: there is no script, just index.html served as a static site.
+  // Everything in the repo root is uploaded except what .assetsignore excludes.
+  "assets": {
+    "directory": "."
+  }
+}

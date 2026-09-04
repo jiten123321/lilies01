@@ -1,0 +1,5 @@
+# Repo plumbing and deploy config must never be served as public files.
+.git
+.gitignore
+.assetsignore
+wrangler.jsonc
